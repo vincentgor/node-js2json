@@ -2,10 +2,10 @@
 
 var util = require('./');
 
-util.js2json('./package1.js', './package1.json', function () {
-	console.log('finished');
-});
+// util.js2json('./package1.js', './package1.json', function () {
+// 	console.log('finished');
+// });
 
-util.json2js('./package.json', './index1.js', function () {
+util.json2js('./package1.json', './index1.js', function () {
 	console.log('finished');
 });
