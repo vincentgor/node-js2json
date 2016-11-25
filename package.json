@@ -1,0 +1,19 @@
+{
+  "name": "js-2-json-file",
+  "version": "0.0.1",
+  "description": "js file to json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentgor/node-js2json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincentgor/node-js2json/issues"
+  },
+  "homepage": "https://github.com/vincentgor/node-js2json#readme"
+}
