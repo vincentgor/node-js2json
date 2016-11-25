@@ -9,6 +9,15 @@ var fs = require('fs');
  */
 function js2json(jsfile, jsonfile, options, callback) {
 
+	if (arguments.length < 3) {
+		return new Error('wrong params');
+	}
+
+	if (arguments.length === 3) {
+		callback = options;
+		options = {};
+	}
+
 	options = options || {};
 
 	var jsObj = require(jsfile);
@@ -25,6 +34,15 @@ function js2json(jsfile, jsonfile, options, callback) {
  * options.space           - how many space, default 'use strict'
  */
 function json2js(jsonfile, jsfile, options, callback) {
+
+	if (arguments.length < 3) {
+		return new Error('wrong params');
+	}
+
+	if (arguments.length === 3) {
+		callback = options;
+		options = {};
+	}
 
 	options = options || {};
 
